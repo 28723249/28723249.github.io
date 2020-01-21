@@ -14,11 +14,6 @@ author: Haoyang Gao
 
 主要想做这些事情有：添加归档，添加标签，添加分类页面，主页显示文章摘要，代码去除 jQuery 和 BootStrap，优化移动端显示，将所有变量写入配置文件`_config.yml`中等。再优化一些细节吧。希望更多人会喜欢。
 
-
-
-
-
-
 ## 改版重构说明
 
 * **使用 GitHub 风格的代码块 Markdown 写法 (Fenced code blocks)。**

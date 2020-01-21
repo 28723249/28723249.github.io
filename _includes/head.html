@@ -20,12 +20,13 @@
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?{{site.baidu_tongji_id}}";
-      var s = document.getElementsByTagName("script")[0];
+      hm.src = "https://hm.baidu.com/hm.js?{{site.baidu_tongji_id}}";
+      var s = document.getElementsByTagName("script")[0]; 
       s.parentNode.insertBefore(hm, s);
     })();
     </script>
 {% endif %}
+
 {% if site.google_analytics_id %}
     <script>
     // google analytics
@@ -36,7 +37,6 @@
 
       ga('create', '{{site.google_analytics_id}}', 'auto');
       ga('send', 'pageview');
-
     </script>
 {% endif %}
 
@@ -53,4 +53,7 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 {% endif %}
+
+<!-- Valine -->
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 </head>

@@ -44,3 +44,15 @@
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endif %}
+
+{% if site.valine_shortname %}
+<div id="vcomments"></div>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: '8nRGcSYYdFQqg9iMY2g02REi-gzGzoHsz',
+        appKey: 'cgyKFQXSnUlOCMVRUzyVYtKk',
+        avatar: 'mp'
+    })
+</script>
+{% endif %}
