@@ -43,16 +43,23 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-# port
-# port: 1234
-
 # url
 tag_dir: tag/
 category_dir: category/
 
-# excerpt
+# 摘要分隔符
 excerpt_separator: "\n\n\n\n"
 
 # paginate
 gems: [jekyll-paginate]
 paginate: 6
+
+# 默认值
+defaults:
+  -
+    scope:
+      path: ""      # 一个空的字符串代表项目中所有的文件
+      type: "posts" # 以前的 `post`， 在 Jekyll 2.2 里。
+    values:
+      layout: "post"
+      author: "勇敢的心"

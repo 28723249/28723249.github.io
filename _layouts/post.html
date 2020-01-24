@@ -6,7 +6,6 @@ layout: default
     <div class="left">
         <h1>{{page.title}}</h1>
         <div class="label">
-
             <div class="label-card">
                 <i class="fa fa-calendar"></i>{{ page.date | date: "%F" }}
             </div>
@@ -27,13 +26,12 @@ layout: default
             <div class="label-card">
             {% include tag.html %}
             </div>
-
         </div>
-        <hr>
+        <hr />
         <article itemscope itemtype="http://schema.org/BlogPosting">
-        {{content}}
+        {{ content }}
         </article>
-        <hr>
+        <hr />
 
         {% assign hasSimilar = '' %}
         {% for post in site.related_posts %}
@@ -70,7 +68,6 @@ layout: default
     <button class="anchor"><i class="fa fa-anchor"></i></button>
     <div class="right">
         <div class="wrap">
-
             <!-- Content -->
             <div class="side content">
                 <div>

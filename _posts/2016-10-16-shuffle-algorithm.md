@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Fisher–Yates shuffle 洗牌算法"
-categories: js
-tags: JavaScript 算法 shuffle
+category: js
+tags: JavaScript, 算法, shuffle
 author: HyG
 ---
 
@@ -12,6 +12,9 @@ author: HyG
 简单来说 Fisher–Yates shuffle 算法是一个用来将一个有限集合生成一个随机排列的算法（数组随机排序）。这个算法生成的随机排列是等概率的。同时这个算法非常高效。
 
 本文主要介绍这个算法的来源、演变、原理。并举出一个例子为大家清晰的描述每次迭代过程。最后使用 JavaScript 代码将算法实现。
+
+
+
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Riffle_shuffle.jpg/320px-Riffle_shuffle.jpg)
 

@@ -2,14 +2,17 @@
 layout: post
 title:  "如何同步GitHub Fork的代码？"
 date:   2015-04-12 15:14:54
-categories: github
-tags: GitHub 同步 fork
+category: github
+tags: GitHub, 同步, fork
 ---
 
 * content
 {:toc}
 
 fork 了别人的仓库后，原作者又更新了仓库，如何将自己的代码和原仓库保持一致？本文将给你解答。
+
+
+
 
 ## 如何使用搜索引擎
 
