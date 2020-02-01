@@ -26,7 +26,8 @@ description_footer: 学习经历，人生感悟。
 
 # comments
 # 三种评论方式，任选一个即可
-duoshuo_shortname: 
+# 多说停服，取消支持
+#duoshuo_shortname:
 disqus_shortname:
 # Valine不使用shortname，该属性仅用作判断条件，随便填
 valine_shortname: guoguanfei

@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "对这个 jekyll 博客主题的改版和重构"
-date:   2016-03-12 11:40:18 +0800
+title:  对这个 jekyll 博客主题的改版和重构
 category: jekyll
 tags: jekyll, blog
 author: Haoyang Gao
@@ -217,4 +216,14 @@ jekyll serve --port 3000
 port: 1234
 ```
 
-此时，启动jekyll服务后，访问 http://localhost:1234/ 即可
+此时，启动jekyll服务后，访问 http://localhost:1234/ 即可。
+
+
+## 使用Valine评论服务
+
+由于“多说”关闭，disqus国内无法访问，故使用了可自行私有化部署的评论服务[Valine](https://valine.js.org/quickstart.html)。
+
+按照官网文档部署即可，非常方便。不过，也踩过一些坑，如下：
+- 1. 设置Web安全域名。<br/>
+  必须设置Web安全域名，否则blog中会提示无权调用API。如果是https，最好带上端口号，如：https://www.xyz.com:443。
+  
