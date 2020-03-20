@@ -1,7 +1,7 @@
 ---
 title: Flink APP 开发及集群部署
 category: flink
-tags: Flink, app, deployment
+tags: flinka app deployment
 ---
 
 * content

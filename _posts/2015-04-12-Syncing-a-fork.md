@@ -3,7 +3,7 @@ layout: post
 title:  "如何同步GitHub Fork的代码？"
 date:   2015-04-12 15:14:54
 category: github
-tags: GitHub, 同步, fork
+tags: github 同步 fork
 ---
 
 * content

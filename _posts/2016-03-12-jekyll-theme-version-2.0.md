@@ -2,7 +2,7 @@
 layout: post
 title:  对这个 jekyll 博客主题的改版和重构
 category: jekyll
-tags: jekyll, blog
+tags: jekyll blog
 author: Haoyang Gao
 ---
 
