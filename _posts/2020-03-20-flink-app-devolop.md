@@ -36,7 +36,14 @@ tags: flink app deployment
       <version>${flink.version}</version>
       <scope>provided</scope>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-shaded-hadoop2 -->
+    <!--
+        https://mvnrepository.com/artifact/org.apache.flink/flink-shaded-hadoop2
+        注意：
+          开发时scope用默认值，发布到Flink集群时scope设为provided。
+          否则mvn package时会把该依赖打入jar包，导致生成的jar包很大。
+        原因：
+          因为依赖包会被放到Flink的lib目录（/path/to/flink/lib），集群启动时会自动加载。
+    -->
     <dependency>
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-shaded-hadoop2</artifactId>
